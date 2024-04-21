@@ -1,0 +1,22 @@
+body {
+  border: 3px solid rgb(193, 229, 247);
+  /* display: block; */
+}
+.gridcontainer {
+  display: grid;
+  grid-template: 1fr 1fr 1fr /1fr 1fr 1fr;
+  grid-gap: 2em;
+  justify-items: center;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 768px) {
+  .gridcontainer {
+    grid-template: 1fr 1fr 1fr/1fr 1fr;
+  }
+}
