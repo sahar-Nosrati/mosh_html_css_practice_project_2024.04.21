@@ -1,1 +1,1 @@
-# mosh_html_css_practice_project_2024.04.21
+# - create small responsive page by CSS grid
